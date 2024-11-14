@@ -4,9 +4,7 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const port = process.env.PORT || 5000
-
-
-const DBuri= process.env.DB;
+const DBuri= "mongodb+srv://yogitakohli12345:yogitakohli@clusterwedding-website.ezuxk.mongodb.net/wedding-website";
 
 const allowedOrigins = [
     'https://instantlegalweddings.com',
