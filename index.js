@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 require('dotenv').config();
-const port = process.env.PORT || 5000
-const DBuri = "mongodb+srv://yogitakohli12345:yogitakohli@clusterwedding-website.ezuxk.mongodb.net/wedding-website";
+const port = process.env.PORT
+const DBuri = "";
 const formRouter = require('./router');
 app.use(express.json());
 const allowedOrigins = [
